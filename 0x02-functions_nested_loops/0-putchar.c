@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * Main-print _printchar & new line
+ * main-print _printchar & new line
  * Return: (0)
  */
 int main(void)
