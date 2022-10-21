@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * pront_remaining_days - pick a date
+ * print_remaining_days - pick a date
  * and prints how many are left
  * @month: month as no.
  * @day:day of the month
@@ -10,7 +10,7 @@
  */
 void print_remaining_days(int month, int day, int year)
 {
-	if((year % 400 == 0) || (year % 4 == 0 && Year
+	if ((year % 400 == 0) || (year % 4 == 0 && Year
 % 100 != 0))
 	{
 		if (month >= 3 && day >= 60)
